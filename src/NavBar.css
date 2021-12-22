@@ -1,0 +1,32 @@
+/* .navbar:before
+{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: .3;
+	z-index: -1;
+	background: linear-gradient(to right,gray 0%,orange 0%,black 100%);
+} */
+
+.nav-item a{
+	font-size: 2rem;
+	color: rgb(77, 51, 51)!important;
+	font-weight: bold;
+	/* font-family: 'Baloo Bhai 2', cursive!important; */
+   
+
+}
+
+
+.nav-item a:hover{
+	/* padding: 2px;
+	margin: 2px;  */
+	background-color: rgb(93, 126, 33);
+	color:black !important;
+	border-radius: 10px !important;
+	box-shadow: 0 0 20px rgb(175, 96, 64);
+
+}
