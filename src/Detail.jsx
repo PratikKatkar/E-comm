@@ -32,11 +32,11 @@ const Detail = (props) => {
     useEffect(() => {
        
 
-        fetch(`https://fakestoreapi.com/products/${params.id}`)
+        fetch('https://fakestoreapi.com/products/'+ params.id)
         .then(res => res.json())
         .then(json => setDetail(json))
 
-    },[params.id])
+    },[])
    
 
     const params = useParams()
