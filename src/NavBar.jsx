@@ -9,7 +9,7 @@ const NavBar = () => {
                  
                     <div className="navbar-header">
                         
-                        <span className="navbar-brand" style={{color:"red"}} >E-commorce</span>
+                        <span className="navbar-brand" style={{color:"red"}} >E-commerce</span>
                     </div>
 
         
